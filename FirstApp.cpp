@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "Helpers.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int result = sum(5, 8);
+    std::cout << "Result = " << result;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
